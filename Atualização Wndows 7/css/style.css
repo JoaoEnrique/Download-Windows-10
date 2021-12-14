@@ -1,0 +1,48 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(http://fediafedia.com/fakeupdate.net/assets/img/nxh0ygq.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: Segoe UI, Arial;
+    user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;
+    font-weight: normal;
+    display: flex;
+    font-size: 23px;
+    cursor: url(http://fediafedia.com/fakeupdate.net/assets/img/gQyFbtU.png), auto;
+    min-height: 100vh;
+}
+
+.texto
+{
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.Primeira-Caixa {
+    position: absolute;
+    top: 40%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -5%;
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.Text-bottom 
+{
+    position: fixed;
+    bottom: 2%;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
