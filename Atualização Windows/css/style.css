@@ -1,0 +1,170 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #006dae;
+    color: #fff;
+    font-family: Segoe UI Light, Segoe UI, Arial;
+    user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;
+    font-weight: normal;
+    display: flex;
+    font-size: 23px;
+    cursor: url(http://fediafedia.com/fakeupdate.net/assets/img/gQyFbtU.png), auto;
+    min-height: 100vh;
+}
+
+.fundo-download
+{
+    justify-content: center;
+    text-align: center;
+}
+
+.texto
+{
+    margin-top: 60px;
+}
+
+.Primeira-Caixa {
+    position: absolute;
+    top: 50%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+    font-family: Segoe UI Light, Segoe UI, Arial;
+    font-size: 23px;
+    margin-top: -5%;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.loader 
+{
+    position: relative;
+    padding-top: 100px;
+    width: 50px;
+    margin: auto;
+}
+  
+.loader .circle 
+{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    opacity: 0;
+    transform: rotate(225deg);
+    animation-iteration-count: infinite;
+    animation-name: orbit;
+    animation-duration: 5.5s;
+}
+
+.loader .circle:after 
+{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 5px;
+    background: #fff;
+    /* Pick a color */
+}
+.loader .circle:nth-child(2) 
+{
+  animation-delay: 240ms;
+}
+.loader .circle:nth-child(3) 
+{
+  animation-delay: 480ms;
+}
+.loader .circle:nth-child(4) 
+{
+  animation-delay: 720ms;
+}
+.loader .circle:nth-child(5) 
+{
+  animation-delay: 960ms;
+}
+
+
+@keyframes orbit 
+{
+  0% {
+    transform: rotate(225deg);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  7% {
+    transform: rotate(345deg);
+    animation-timing-function: linear;
+  }
+  30% {
+    transform: rotate(455deg);
+    animation-timing-function: ease-in-out;
+  }
+  39% {
+    transform: rotate(690deg);
+    animation-timing-function: linear;
+  }
+  70% {
+    transform: rotate(815deg);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  75% {
+    transform: rotate(945deg);
+    animation-timing-function: ease-out;
+  }
+  76% {
+    transform: rotate(945deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(945deg);
+    opacity: 0;
+  }
+}
+
+.Text-bottom 
+{
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+
+
+/* PÁGINA DA TELA AZUL */
+.carinha
+{
+    margin-top: 30px;
+    font-size: 150px;
+}
+
+.fundo-tela-azul
+{
+    margin: -20px 350px 0px 350px;
+}
+
+.texto-tela-azul
+{
+    margin-top: -10px!important;
+}
+
+.text-2
+{
+    font-size: 20px;
+}
+
+.erro
+{
+    margin-left: 220px;
+}
